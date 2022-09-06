@@ -84,11 +84,11 @@ Pour de l'aide concernant l'utilisation de Active-HDL, vous pouvez suivre [le tu
 
 ### c. Correction des erreurs de syntaxe
 
-Le fichier `demo_combinatoire.vhd` comporte cinq erreurs de syntaxe. Pour vous aider à les trouver, dans Active-HDL faites `Design > Compile` ou pressez la touche F11. Attention, il est important de spécifier la bonne version de VHDL à utiliser par le compilateur, avec [Design > Settings > Compilation > VHDL Compiler > Language Specification > Standard version : VHDL 1076-2008](figures/Active-HDL-VHDL-compiler.jpg). On peut aussi effectuer la compilation directement dans la console de Active-HDL avec la commande :
+Le fichier `demo_combinatoire.vhd` comporte six erreurs de syntaxe. Pour vous aider à les trouver, dans Active-HDL faites `Design > Compile` ou pressez la touche F11. Attention, il est important de spécifier la bonne version de VHDL à utiliser par le compilateur, avec [Design > Settings > Compilation > VHDL Compiler > Language Specification > Standard version : VHDL 1076-2008](figures/Active-HDL-VHDL-compiler.jpg). On peut aussi effectuer la compilation directement dans la console de Active-HDL avec la commande :
 
 `acom -2008 votre-chemin\inf3500\labo1\demo_combinatoire.vhd`
 
-Notez et corrigez les cinq erreurs une à la fois. Ajoutez des commentaires dans votre fichier `demo_combinatoire.vhd` indiquant les erreurs que vous avez corrigées. [Recommandation : Consultez les diapositives du cours, série 0104, pour une brève introduction au langage VHDL.]
+Notez et corrigez les six erreurs une à la fois. Ajoutez des commentaires dans votre fichier `demo_combinatoire.vhd` indiquant les erreurs que vous avez corrigées. [Recommandation : Consultez les diapositives du cours, série 0104, pour une brève introduction au langage VHDL.]
 
 ### d. Vérification par simulation et correction des erreurs fonctionnelles
 
